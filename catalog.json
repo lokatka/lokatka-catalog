@@ -783,10 +783,11 @@
     "Dla dzieci 7–17 lat zamów też kartę debetową"
    ],
    "id": "erste-mlodzi",
+   "kidPaymentsApprox": 3,
    "kind": "dziecko",
    "maxAge": 17,
    "minAge": 0,
-   "note": "Nastolatek 13–17 lat może dostać dodatkowe 100 zł z programu poleceń. Dla dziecka jest też lokata 5%.",
+   "note": "W letniej edycji: wpływ 50 zł i 3 płatności kartą lub BLIKIEM — sprawdź regulamin obecnej. Nastolatek 13–17 lat może dostać dodatkowe 100 zł z programu poleceń.",
    "product": "Konto Smart dla młodych — „Jesienna promocja dla młodych”",
    "source": "https://moneteo.com/bankonauci/jesienna-promocja-dla-mlodych-250-zl-konto-smart-dla-mlodych-erste-bank-polska",
    "until": "2026-11-30"
@@ -795,6 +796,18 @@
    "bank": "bnp",
    "bankName": "BNP Paribas",
    "bonus": 200,
+   "bonusByAge": [
+    {
+     "bonus": 100,
+     "max": 12,
+     "min": 7
+    },
+    {
+     "bonus": 200,
+     "max": 17,
+     "min": 13
+    }
+   ],
    "conditions": [
     "Rodzic ma (albo otwiera) konto osobiste w BNP Paribas",
     "Do 30.11.2026 Konto Karty Samodzielniaka (7–12 lat) albo zgoda na Konto Samodzielniaka (13–17 lat)",
@@ -804,7 +817,7 @@
    "kind": "dziecko",
    "maxAge": 17,
    "minAge": 7,
-   "note": "Pula 8 000 wniosków — może skończyć się wcześniej. Rodzic może równolegle wziąć premię za własne konto.",
+   "note": "7–12 lat: 100 zł, 13–17 lat: 200 zł. Pula 8 000 wniosków — może skończyć się wcześniej. Liczbę płatności kartą sprawdź w regulaminie.",
    "parentAccount": true,
    "product": "Konto Karty Samodzielniaka — „Dodatkowe kieszonkowe”",
    "source": "https://moneteo.com/bankonauci/200-zl-dodatkowe-kieszonkowe-konto-samodzielniaka-bnp-paribas",
@@ -837,28 +850,46 @@
     "Aktywność dziecka kartą wg regulaminu"
    ],
    "id": "mbank-junior",
+   "kidMonths": 3,
+   "kidPaymentsApprox": 2,
    "kind": "dziecko",
    "maxAge": 12,
    "minAge": 0,
-   "note": "Nagroda do końca lutego 2027. Termin otwarcia i dokładny przedział wieku sprawdź w regulaminie. Rodzic w „Cała naprzód” dostaje dodatkowo 100 zł za konto dziecka.",
+   "note": "Nagroda: e-karta podarunkowa SMYK 300 zł (nie gotówka). Do promocji można przystąpić do 11.01.2027. W poprzedniej edycji: wpływ min. 200 zł, min. 2 płatności kartą i logowanie do mBank Junior w każdym z 3 miesięcy — sprawdź regulamin obecnej.",
    "parentAccount": true,
    "product": "eKonto junior — „Czas na samodzielność”",
-   "source": "https://moneteo.com/bankonauci/czas-na-samodzielnosc-300-zl-smyk-ekonto-junior-mbank"
+   "source": "https://moneteo.com/bankonauci/czas-na-samodzielnosc-300-zl-smyk-ekonto-junior-mbank",
+   "until": "2027-01-11"
   },
   {
    "bank": "ing",
    "bankName": "ING Bank Śląski",
    "bonus": 200,
+   "bonusByAge": [
+    {
+     "bonus": 150,
+     "max": 5,
+     "min": 0
+    },
+    {
+     "bonus": 200,
+     "max": 17,
+     "min": 6
+    }
+   ],
    "conditions": [
-    "Konto dla dziecka zakładane przez rodzica w Moim ING",
-    "Zgody marketingowe w Panelu rodzica",
-    "Aktywność dziecka w kolejnych miesiącach"
+    "Konto dla dziecka zakładane przez rodzica w Moim ING (rodzic: konto osobiste i zgody marketingowe)",
+    "W ciągu 14 dni zamów kartę: 6–12 lat karta przedpłacona Mastercard (wydanie 15 zł), 13–17 lat karta debetowa Visa",
+    "Płatności kartą nie są wymagane",
+    "Warunki aktywności w 4 kolejnych miesiącach — szczegóły w regulaminie"
    ],
    "id": "ing-go",
+   "kidMonths": 4,
+   "kidPayments": 0,
    "kind": "dziecko",
    "maxAge": 17,
    "minAge": 0,
-   "note": "Premia najpóźniej do 11.03.2027. Termin otwarcia sprawdź w regulaminie.",
+   "note": "0–5 lat: 150 zł, 6–17 lat: 200 zł. Premia najpóźniej do 11.03.2027.",
    "parentAccount": true,
    "product": "Konto w Planie ING GO dla niepełnoletnich — „Do 200 zł kieszonkowego”",
    "source": "https://moneteo.com/bankonauci/do-200-zl-kieszonkowego-konto-w-planie-ing-go-dla-niepelnoletnich-ing-bank-slaski-pazdziernik-2026"
@@ -872,10 +903,12 @@
     "Konto dla dziecka: PKO Konto Dziecka (0–12) lub PKO Konto dla Młodych (13–17)"
    ],
    "id": "pko-dziecko",
+   "kidMonths": 3,
+   "kidPaymentsApprox": 5,
    "kind": "dziecko",
    "maxAge": 17,
    "minAge": 0,
-   "note": "Kwota „do 300 zł” — szczegóły w regulaminie promocji.",
+   "note": "300 zł = 3 × 100 zł za miesiące ze spełnionymi warunkami. W poprzedniej edycji: min. 5 płatności kartą i logowanie do IKO/PKO Junior w miesiącu — sprawdź regulamin obecnej.",
    "parentAccount": true,
    "product": "PKO Konto Dziecka / dla Młodych — w promocji „Prosty zwrot”",
    "source": "https://www.totalmoney.pl/artykuly/pko-konto-za-zero-promocja-prosty-zwrot-600-zl",
