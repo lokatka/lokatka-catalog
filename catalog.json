@@ -1,0 +1,696 @@
+{
+ "archive": [
+  {
+   "bank": "bnp",
+   "bankName": "BNP Paribas",
+   "bonus": 1100,
+   "conditions": [
+    "Przez 12 miesięcy (od miesiąca po otwarciu): min. 10 płatności kartą, wpływy łącznie min. 1500 zł, 1 logowanie do GOmobile → 75 zł za każdy miesiąc",
+    "Na koniec 12. miesiąca min. 500 zł na Koncie Lokacyjnym lub Koncie Pełnym Marzeń → +200 zł"
+   ],
+   "from": "2026-09-14",
+   "id": "bnp-podroznik-app2",
+   "inflowMonths": 12,
+   "kind": "premia",
+   "newClient": true,
+   "product": "Konto Otwarte na Ciebie — „Podróżnik z aplikacją 2”",
+   "salary": 1500,
+   "source": "https://www.kontomaniak.pl/promocje/bnp-paribas/1100-zl-na-konto-w-promocji-podroznik-z-aplikacja-edycja-2-z-kontem-otwartym-na-ciebie",
+   "until": "2026-11-13"
+  },
+  {
+   "balanceDate": "2026-09-10",
+   "bank": "velo",
+   "bankName": "VeloBank",
+   "cardPayments": 5,
+   "conditions": [
+    "Otwarcie EKO online + konto osobiste",
+    "Min. 5 płatności kartą lub BLIK w miesiącu",
+    "Zgody marketingowe"
+   ],
+   "days": 92,
+   "from": "2026-10-08",
+   "id": "velo-eko-12",
+   "kind": "oszcz",
+   "max": 100000,
+   "newClient": true,
+   "newFunds": true,
+   "note": "Edycja 12/2026 zakończona 12.11.2026. Data startu przybliżona (publikacja 8.10.2026). 6% do 100 tys. zł, 4% od nadwyżki do 400 tys. zł.",
+   "product": "Elastyczne Konto Oszczędnościowe (nowi klienci, ed. 12/2026)",
+   "rate": 6,
+   "source": "https://moneteo.com/bankonauci/nowe-srodki-6-proc-eko-velobank-edycja-12-2026",
+   "until": "2026-11-12"
+  }
+ ],
+ "fx": {
+  "CHF": 4.7618,
+  "EUR": 4.407,
+  "GBP": 5.2737,
+  "UAH": 0.0877,
+  "USD": 3.9852,
+  "date": "2026-11-13"
+ },
+ "offers": [
+  {
+   "bank": "bos",
+   "bankName": "BOŚ Bank",
+   "conditions": [
+    "Konto bez Kosztów (konto osobiste)",
+    "Konto oszczędnościowe Cyfrowy Zysk"
+   ],
+   "endFixed": "2027-01-31",
+   "id": "bos-cyfrowy",
+   "kind": "oszcz",
+   "max": 30000,
+   "newClient": true,
+   "product": "EKOkonto oszczędnościowe Cyfrowy Zysk",
+   "rate": 7,
+   "source": "https://www.analizy.pl/raporty/41119/ranking-kont-oszczednosciowych-listopad-2026",
+   "until": "2027-01-31"
+  },
+  {
+   "bank": "ca",
+   "bankName": "Credit Agricole",
+   "conditions": [
+    "Konto osobiste + rachunek oszczędnościowy",
+    "Zamówienie karty",
+    "Zgody marketingowe"
+   ],
+   "days": 100,
+   "id": "ca-oszczedzam",
+   "kind": "oszcz",
+   "max": 100000,
+   "newClient": true,
+   "note": "Sprawdź w regulaminie definicję nowego klienta.",
+   "product": "Rachunek Oszczędzam Plus — „Na start”",
+   "rate": 6.5,
+   "source": "https://www.analizy.pl/raporty/41119/ranking-kont-oszczednosciowych-listopad-2026",
+   "until": "2026-11-30"
+  },
+  {
+   "bank": "nest",
+   "bankName": "Nest Bank",
+   "conditions": [
+    "Wpływ wynagrodzenia min. 2 000 zł albo wpływy 2 000 zł + min. 10 płatności kartą/BLIK w wymaganych okresach"
+   ],
+   "days": 90,
+   "id": "nest-oszcz",
+   "kind": "oszcz",
+   "max": 25000,
+   "newClient": true,
+   "product": "Nest Konto Oszczędnościowe (nowe konto)",
+   "rate": 6.1,
+   "salary": 2000,
+   "source": "https://www.analizy.pl/raporty/41119/ranking-kont-oszczednosciowych-listopad-2026"
+  },
+  {
+   "bank": "nest",
+   "bankName": "Nest Bank",
+   "conditions": [
+    "Nest Konto (konto osobiste)",
+    "Lokatę załóż w ciągu 30 dni od otwarcia pierwszego konta"
+   ],
+   "days": 182,
+   "id": "nest-lokata",
+   "kind": "lokata",
+   "max": 25000,
+   "min": 1000,
+   "newClient": true,
+   "product": "Nest Lokata Witaj 6M",
+   "rate": 6.1,
+   "source": "https://www.analizy.pl/raporty/41118/ranking-lokat-listopad-2026"
+  },
+  {
+   "bank": "raiffeisen",
+   "bankName": "Raiffeisen Digital Bank",
+   "conditions": [
+    "Nie miałeś bieżącego rachunku PLN w Raiffeisen Digital Bank do 11.11.2026 23:00",
+    "Konto osobiste otwierasz w aplikacji (zgody marketingowe przed otwarciem)",
+    "Lokatę zakładasz w ciągu 30 dni od otwarcia konta; jedna lokata w promocji",
+    "Do 12.12.2026 23:00 albo wcześniej — bank może zakończyć wcześniej"
+   ],
+   "days": 91,
+   "from": "2026-11-12",
+   "id": "raiffeisen-lokata",
+   "kind": "lokata",
+   "max": 100000,
+   "min": 100,
+   "newClient": true,
+   "note": "Inne warianty: 6 mies. 5% i 12 mies. 4,6% (do 150 tys. zł). Domyślnie 25% austriackiego podatku — złóż IS-QU1 lub certyfikat rezydencji.",
+   "product": "Lokata Dla Ciebie dla nowych klientów 3M",
+   "rate": 6.2,
+   "source": "https://zarabiajnabankach.pl/promocyjna-lokata-na-6-2-proc-do-100-tys-zl-dla-nowych-klientow-raiffeisen-digital-banku-listopad-2026/",
+   "until": "2026-12-12"
+  },
+  {
+   "balanceDate": "2026-10-16",
+   "bank": "pekao",
+   "bankName": "Bank Pekao",
+   "cardPayments": 5,
+   "conditions": [
+    "Nowe środki (ponad saldo z 16.10.2026)",
+    "Min. 5 płatności kartą/BLIK w każdym okresie rozliczeniowym (bez nich 3%)"
+   ],
+   "days": 92,
+   "id": "pekao-oszcz",
+   "kind": "oszcz",
+   "max": 200000,
+   "newFunds": true,
+   "note": "Są dodatkowe warunki dotyczące wcześniejszej relacji z bankiem — sprawdź regulamin.",
+   "product": "Konto Oszczędnościowe (bonus plus, ed. VII)",
+   "rate": 6,
+   "source": "https://www.analizy.pl/raporty/41119/ranking-kont-oszczednosciowych-listopad-2026",
+   "until": "2026-11-23"
+  },
+  {
+   "bank": "bnp",
+   "bankName": "BNP Paribas",
+   "conditions": [
+    "Nowe Konto Otwarte na Ciebie — lokatę zakładasz w ciągu miesiąca od otwarcia konta"
+   ],
+   "days": 122,
+   "id": "bnp-dynamiczny",
+   "kind": "lokata",
+   "max": 50000,
+   "min": 1000,
+   "newClient": true,
+   "note": "6% to średnia — oprocentowanie rośnie co miesiąc. Przy zerwaniu zostają odsetki z zakończonych miesięcy.",
+   "product": "Lokata Dynamiczny Zysk (4→5→7→8%)",
+   "rate": 6,
+   "source": "https://www.analizy.pl/raporty/41118/ranking-lokat-listopad-2026"
+  },
+  {
+   "bank": "alior",
+   "bankName": "Alior Bank",
+   "conditions": [
+    "Konto osobiste",
+    "Transakcje min. 500 zł w każdym miesiącu promocji",
+    "Tylko w aplikacji Alior Mobile"
+   ],
+   "days": 92,
+   "id": "alior-start",
+   "kind": "oszcz",
+   "max": 50000,
+   "newClient": true,
+   "product": "Konto Oszczędnościowe na Start (ed. XII)",
+   "rate": 5.5,
+   "source": "https://www.analizy.pl/raporty/41119/ranking-kont-oszczednosciowych-listopad-2026",
+   "until": "2027-01-11"
+  },
+  {
+   "bank": "mbank",
+   "bankName": "mBank",
+   "conditions": [
+    "mKonto Intensive"
+   ],
+   "days": 180,
+   "id": "mbank-cele",
+   "kind": "oszcz",
+   "max": 200000,
+   "newClient": true,
+   "note": "Sprawdź opłatę za mKonto Intensive i definicję nowego klienta.",
+   "product": "Moje Cele — „Cała naprzód” (ed. II)",
+   "rate": 5.5,
+   "source": "https://www.analizy.pl/raporty/41119/ranking-kont-oszczednosciowych-listopad-2026",
+   "until": "2026-11-30"
+  },
+  {
+   "bank": "erste",
+   "bankName": "Erste Bank Polska",
+   "conditions": [
+    "Konto Erste Platinum"
+   ],
+   "days": 182,
+   "id": "erste-platinum",
+   "kind": "lokata",
+   "max": 250000,
+   "min": 1000,
+   "newClient": true,
+   "note": "Sprawdź opłatę za konto Platinum.",
+   "product": "Lokata na powitanie w Erste Platinum",
+   "rate": 5.5,
+   "source": "https://www.analizy.pl/raporty/41118/ranking-lokat-listopad-2026"
+  },
+  {
+   "balanceDate": "2026-10-16",
+   "bank": "millennium",
+   "bankName": "Bank Millennium",
+   "cardPayments": 5,
+   "conditions": [
+    "Konto osobiste + Konto Oszczędnościowe Profit",
+    "Nowe środki: nadwyżka ponad saldo WSZYSTKICH Twoich rachunków w Millennium (konto osobiste, oszczędnościowe, lokaty) z 16.10.2026, wpłacona do 24.11.2026",
+    "Min. 5 płatności kartą debetową lub BLIK w każdym miesiącu (bez tego tylko 1,5%)",
+    "Nie możesz w tym czasie korzystać z innej edycji promocji na tym samym KOP"
+   ],
+   "days": 91,
+   "id": "millennium-profit",
+   "kind": "oszcz",
+   "max": 200000,
+   "newFunds": true,
+   "note": "5,5% dla KOP otwartych od 17.10.2026; dla starszych KOP max 4,5%. Przelew pieniędzy, które już były w Millennium 16.10 (np. z konta osobistego), nie tworzy nowych środków. Po 91 dniach 0,50%. Odsetki 2 razy: koniec miesiąca i początek następnego (za 5 płatności).",
+   "product": "Konto Oszczędnościowe Profit — nowe środki (ed. 78)",
+   "rate": 5.5,
+   "rateExisting": 4.5,
+   "source": "https://moneteo.com/bankonauci/nowe-srodki-konto-profit-bank-millennium-edycja-78",
+   "standardRate": 0.5,
+   "until": "2026-11-24"
+  },
+  {
+   "balanceDate": "2026-09-24",
+   "bank": "pko",
+   "bankName": "PKO BP",
+   "conditions": [
+    "Nowe środki: nadwyżka ponad saldo depozytów w PKO BP (konta, rachunki oszczędnościowe, lokaty w PLN) z 24.09.2026",
+    "Wpłata nowych środków od 25.09.2026 do 7.01.2027",
+    "Konto oszczędnościowe otwarte od 27.06.2025 (starsze nie biorą udziału)",
+    "Osoba pełnoletnia; nie łączy się z inną promocją nowych środków na tym samym koncie"
+   ],
+   "days": 90,
+   "from": "2026-09-25",
+   "id": "pko-plus",
+   "kind": "oszcz",
+   "max": 250000,
+   "newFunds": true,
+   "note": "Stawka stała przez 90 dni od pierwszej wpłaty nowych środków. Nie trzeba konta osobistego.",
+   "product": "Konto Oszczędnościowe Plus",
+   "rate": 4,
+   "source": "https://pkobp.pl/klient-indywidualny/konta/konto-oszczednosciowe",
+   "standardRate": 0.1,
+   "until": "2027-01-07"
+  },
+  {
+   "bank": "ing",
+   "bankName": "ING Bank Śląski",
+   "conditions": [
+    "Brak OKO, OKO Premium i Dream Saver (także jako współposiadacz) na 13.11.2026 — nowi i obecni klienci ING",
+    "Otwórz OKO do 15.12.2026; promocja trwa 3 miesiące od otwarcia",
+    "W ciągu 3 miesięcy: konto osobiste w ING, min. 3 logowania do Moje ING mobile, min. 15 płatności kartą/portfelem lub BLIK (bez tego 4%)",
+    "Saldo poniżej 400 tys. zł"
+   ],
+   "days": 91,
+   "from": "2026-11-13",
+   "id": "ing-oko-start",
+   "kind": "oszcz",
+   "max": 400000,
+   "note": "Okres to 3 miesiące od dnia otwarcia OKO — wpłać od razu. Odsetki promocyjne wypłacane po 3 miesiącach.",
+   "pairNote": "Nowe Konto w Planie z OKO w promocji „Konto pełne korzyści” — to samo OKO może dostać Bonus na start.",
+   "product": "Otwarte Konto Oszczędnościowe — „Bonus na start” (listopad 2026)",
+   "rate": 5.5,
+   "source": "https://moneteo.com/bankonauci/5-5-proc-otwarte-konto-oszczednosciowe-bonus-na-start-listopad-2026-ing-bank-slaski",
+   "until": "2026-12-15"
+  },
+  {
+   "balanceDate": "2026-11-09",
+   "bank": "velo",
+   "bankName": "VeloBank",
+   "cardPayments": 5,
+   "conditions": [
+    "Nowy klient: brak konta osobistego i produktów oszczędnościowych w VeloBanku od 31.12.2024 do 12.11.2026 — 6% do 100 tys. zł, 4% od nadwyżki do 400 tys. zł (EKO otwarte zdalnie)",
+    "Obecni klienci: 4,5% od nowych środków do 400 tys. zł (ponad saldo z 9.11.2026)",
+    "Min. 5 płatności kartą lub BLIK w każdym miesiącu kalendarzowym (bez tego 2% nowi / 1% obecni)",
+    "Otwarcie EKO i wpłata do 9.12.2026; zgody marketingowe; tylko jedno indywidualne EKO"
+   ],
+   "days": 92,
+   "from": "2026-11-13",
+   "id": "velo-eko",
+   "kind": "oszcz",
+   "max": 100000,
+   "newClient": true,
+   "newFunds": true,
+   "note": "Nie skorzystasz, jeśli promocja z poprzedniej edycji kończy się na Twoim EKO między 13.11 a 9.12.2026. Data startu 13.11.2026 wg okna wyłączenia w regulaminie. Po 92 dniach stawka standardowa.",
+   "product": "Elastyczne Konto Oszczędnościowe (ed. 13/2026)",
+   "rate": 6,
+   "rateExisting": 4.5,
+   "source": "https://moneteo.com/bankonauci/nowe-srodki-6-proc-eko-velobank-edycja-13-2026",
+   "until": "2026-12-09"
+  },
+  {
+   "bank": "velo",
+   "bankName": "VeloBank",
+   "bonus": 50,
+   "conditions": [
+    "Kod polecający przy zakładaniu konta",
+    "Wpływ jednorazowo min. 2 000 zł w każdym z 3 kolejnych miesięcy",
+    "Zgody marketingowe",
+    "Polecający musi być zapisany do aktualnej edycji programu"
+   ],
+   "id": "velo-polecenie",
+   "inflowMonths": 3,
+   "kind": "premia",
+   "newClient": true,
+   "note": "Premia wypłacana ok. 4. miesiąca po otwarciu. Nie zamykaj konta przed wypłatą.",
+   "product": "VeloKonto z kodem polecającym („Doceniam Velo – polecam Velo”)",
+   "refBonus": 100,
+   "salary": 2000,
+   "source": "https://bankoweabc.pl/oferta/doceniam-velo-polecam-velo-velobank/",
+   "until": "2026-11-30"
+  },
+  {
+   "bank": "millennium",
+   "bankName": "Bank Millennium",
+   "bonus": 800,
+   "conditions": [
+    "Nie masz konta osobistego (ROR) w Millennium od 1.01.2023",
+    "Wniosek o konto 360° z kartą debetową + zgody marketingowe",
+    "200 zł: w 14 dni od otwarcia wpływy min. 3 000 zł, karta w Apple/Google/Samsung Pay i min. 5 płatności w sklepach stacjonarnych, numer telefonu do BLIK",
+    "300 zł: w każdym z 6 kolejnych miesięcy wpływy min. 3 000 zł i płatności kartą/portfelem min. 1 000 zł, numer BLIK tylko w Millennium",
+    "300 zł: wynagrodzenie lub świadczenie w min. 5 z 6 miesięcy",
+    "Osoby 18–25 lat: wpływy min. 1 500 zł zamiast 3 000 zł"
+   ],
+   "id": "millennium-360",
+   "inflowMonths": 6,
+   "kind": "premia",
+   "newClient": true,
+   "note": "Nie liczą się przelewy z własnych kont w Millennium, z Wise/Revolut, z lokat; płatności BLIK i w walutach obcych. Nie zamykaj konta i nie odwołuj zgód przed wypłatą. Premia zwolniona z PIT. Limit 150 000 kont.",
+   "product": "Konto Millennium 360° — „Do 800 zł”",
+   "refBonus": 0,
+   "salary": 3000,
+   "salaryYoung": 1500,
+   "source": "https://moneteo.com/bankonauci/do-800-zl-konto-millennium-360-bank-millennium",
+   "until": "2027-02-18"
+  },
+  {
+   "bank": "bnp",
+   "bankName": "BNP Paribas",
+   "bonus": 1100,
+   "conditions": [
+    "Brak konta osobistego w BNP Paribas przez 24 miesiące",
+    "Konto Otwarte na Ciebie z Kartą Otwartą na Świat — umowa, aktywacja karty i PIN do 10.01.2027",
+    "Przez 12 miesięcy (od miesiąca po otwarciu): min. 10 płatności kartą (Apple/Google Pay tak, BLIK nie), wpływy łącznie min. 1500 zł, 1 logowanie do GOmobile → 75 zł za każdy miesiąc",
+    "Na koniec 12. miesiąca min. 500 zł na Koncie Lokacyjnym lub Koncie Pełnym Marzeń → +200 zł",
+    "Zgody marketingowe do czasu wypłaty wszystkich premii"
+   ],
+   "from": "2026-11-14",
+   "id": "bnp-podroznik",
+   "inflowMonths": 12,
+   "kind": "premia",
+   "newClient": true,
+   "note": "1100 zł = 12 × 75 zł + 200 zł. Do 10.01.2027 lub do wyczerpania 12 500 wniosków. Nieudany miesiąc nie przekreśla kolejnych. Lokatę Dynamiczny Zysk otwierasz w ciągu miesiąca od założenia konta.",
+   "product": "Konto Otwarte na Ciebie — „Podróżnik – edycja 4”",
+   "refBonus": 0,
+   "salary": 1500,
+   "source": "https://polakoszczedza.pl/2026/11/promocja-konta-osobistego-bnp-paribas-podroznik-edycja-4-1100/",
+   "until": "2027-01-10"
+  },
+  {
+   "bank": "ca",
+   "bankName": "Credit Agricole",
+   "bonus": 1000,
+   "cashback": {
+    "cap": 100,
+    "get": 10,
+    "months": 10,
+    "per": 50,
+    "what": "restauracje, kawiarnie, fast food i dostawy jedzenia"
+   },
+   "conditions": [
+    "Konto dla Ciebie MAX, MOVE! lub Prime z kartą + zgody marketingowe",
+    "Przez 10 miesięcy (od miesiąca po otwarciu konta) płać kartą lub BLIK w restauracjach, kawiarniach, fast foodach, także zamówienia online",
+    "10 zł zwrotu za każde 50 zł wydane w miesiącu (liczy się suma), max 100 zł miesięcznie",
+    "Nie liczą się: bary i kluby, sklepy spożywcze, gastronomia na stacjach i w hotelach, płatności za granicą; Uber Eats ma inny kod MCC — nie liczy się",
+    "Nowy klient: brak konta osobistego w CA od 1.01.2025"
+   ],
+   "id": "ca-smaczne",
+   "kind": "premia",
+   "newClient": true,
+   "note": "„Do 1000 zł” tylko przy dużych wydatkach na jedzenie na mieście. Łączy się z 6,5% na Rachunku Oszczędzam Plus (to samo nowe konto). Premie zwolnione z PIT.",
+   "pairNote": "To samo nowe konto daje dostęp do Rachunku Oszczędzam Plus 6,5% — otwierasz raz, korzystasz z obu.",
+   "product": "Konto dla Ciebie — „Smaczne zwroty II” (moneyback)",
+   "refBonus": 0,
+   "source": "https://moneteo.com/bankonauci/smaczne-zwroty-1000-zl-konto-dla-ciebie-w-credit-agricole-edycja-2",
+   "until": "2026-11-30"
+  },
+  {
+   "bank": "mbank",
+   "bankName": "mBank",
+   "bonus": 910,
+   "conditions": [
+    "Do 30.11.2026 zapisz się do promocji i złóż wniosek o eKonto do usług z kartą na stronie promocji",
+    "Umowę zawrzyj najpóźniej 7.12.2026",
+    "500 zł premii podstawowej za płatności kartą i aktywność",
+    "110 zł za otwarcie na selfie / e-dowód / mObywatel",
+    "300 zł za wpływy wynagrodzenia"
+   ],
+   "id": "mbank-konto",
+   "kind": "premia",
+   "newClient": true,
+   "note": "Plus 60 zł (kod mOkazje) za otwarcie z polecenia — polecający dostaje 150 zł. Dodatkowo 100 zł za konto dla dziecka. Konto bezwarunkowo darmowe.",
+   "pairNote": "Moje Cele 5,5% wymaga mKonto Intensive, a premia jest za eKonto do usług — to dwa różne konta. Sprawdź w regulaminie, czy możesz mieć oba, albo wybierz jedno.",
+   "product": "eKonto do usług — „Cała naprzód” (ed. 2)",
+   "refBonus": 150,
+   "source": "https://moneteo.com/bankonauci/cala-naprzod-1000-zl-premii-ekonto-do-uslug-mbank-edycja-2",
+   "until": "2026-11-30"
+  },
+  {
+   "bank": "ing",
+   "bankName": "ING Bank Śląski",
+   "bonus": 800,
+   "conditions": [
+    "Nie masz żadnego konta w ING od 28.10.2025 (ani współposiadania, ani pełnomocnictwa)",
+    "Wniosek o Konto w Planie z Otwartym Kontem Oszczędnościowym w aplikacji Moje ING",
+    "Obecna tura do 25.11.2026, druga tura 26.11.2026–21.01.2027",
+    "Nie zamykaj konta, OKO ani karty przed wypłatą"
+   ],
+   "id": "ing-konto",
+   "kind": "premia",
+   "newClient": true,
+   "note": "Dodatkowe 100 zł za polecenie w osobnej promocji + 12 miesięcy Onet Premium. Warunki etapów zależą od daty otwarcia — sprawdź regulamin.",
+   "product": "Konto w Planie z OKO — „Konto pełne korzyści”",
+   "refBonus": 0,
+   "source": "https://www.pepper.pl/promocje/ing-do-800-zl-premii-12-miesiecy-onet-premium-za-konto-osobiste-1377367",
+   "until": "2027-01-21"
+  },
+  {
+   "bank": "erste",
+   "bankName": "Erste Bank Polska",
+   "bonus": 700,
+   "conditions": [
+    "Do 30.11.2026 wniosek i umowa o Konto Smart lub Konto Max z kartą",
+    "3 × 200 zł za aktywność w 3 kolejnych miesiącach",
+    "100 zł za „rzetelność” (wszystkie miesiące zaliczone)",
+    "Utrzymaj dodany cel oszczędnościowy i zgody marketingowe do ostatniej premii"
+   ],
+   "id": "erste-konto",
+   "inflowMonths": 3,
+   "kind": "premia",
+   "newClient": true,
+   "note": "Plus 50 zł za otwarcie z polecenia. Po otwarciu: Lokata na powitanie 4,5% na 3 mies. do 50 tys. zł. Do 300 zł zwrotu rocznie za domowe rachunki.",
+   "pairNote": "Lokata 5,5% jest dla Konta Platinum, a premia — za Konto Smart/Max. Z kontem Smart/Max dostaniesz Lokatę na powitanie 4,5% na 3 mies.",
+   "product": "Konto Smart / Max — „Do 700 zł na dowolny cel”",
+   "refBonus": 0,
+   "source": "https://moneteo.com/bankonauci/do-700-zl-na-dowolny-cel-konto-osobiste-erste-bank-polska",
+   "until": "2026-11-30"
+  },
+  {
+   "bank": "pko",
+   "bankName": "PKO BP",
+   "bonus": 600,
+   "conditions": [
+    "Do 31.12.2026 wniosek online o PKO Konto za Zero z kartą Visa (IKO / iPKO / strona banku)",
+    "We wniosku kod promocji: PROSTO",
+    "Zgoda na marketing elektroniczny",
+    "Aktywne korzystanie z konta i płatności kartą"
+   ],
+   "id": "pko-konto",
+   "kind": "premia",
+   "newClient": true,
+   "note": "Pula 12 000 kont — może skończyć się wcześniej. Konto bezwarunkowo darmowe. Nagrody zwolnione z PIT. Do 300 zł więcej za konto dla dziecka.",
+   "product": "PKO Konto za Zero — „Prosty zwrot” (kod PROSTO)",
+   "refBonus": 0,
+   "source": "https://www.totalmoney.pl/artykuly/pko-konto-za-zero-promocja-prosty-zwrot-600-zl",
+   "until": "2026-12-31"
+  },
+  {
+   "bank": "nest",
+   "bankName": "Nest Bank",
+   "bonus": 100,
+   "conditions": [
+    "Nie miałeś konta osobistego w Nest Banku po 1.01.2023",
+    "Załóż Nest Konto z kodem polecenia"
+   ],
+   "id": "nest-polecenie",
+   "kind": "premia",
+   "newClient": true,
+   "note": "Łączy się z Nest Lokatą Witaj 6,1% i Nest Kontem Oszczędnościowym.",
+   "product": "Nest Konto z kodem polecenia",
+   "refBonus": 0,
+   "source": "https://jakdorobic.pl/konto-osobiste-promocja/",
+   "until": "2026-12-31"
+  },
+  {
+   "bank": "pocztowy",
+   "bankName": "Bank Pocztowy",
+   "bonus": 1000,
+   "cashback": {
+    "cap": 80,
+    "get": 5,
+    "months": 12,
+    "per": 100,
+    "what": "płatności bezgotówkowe kartą (5% wydatków)"
+   },
+   "conditions": [
+    "Brak konta osobistego z kartą w Banku Pocztowym od 1.01 do 30.09.2026 (także jako współposiadacz)",
+    "Konto do 31.01.2027",
+    "Przez 12 miesięcy: wpływy min. 1000 zł i wydatki kartą min. 400 zł miesięcznie",
+    "Moneyback 5% wydatków kartą: max 120 zł w 1. miesiącu i 80 zł w kolejnych 11"
+   ],
+   "from": "2026-10-01",
+   "id": "pocztowy-konto",
+   "inflowMonths": 12,
+   "kind": "premia",
+   "newClient": true,
+   "note": "„Do 1400 zł” = 1000 zł moneyback + 32 000 pkt Bezcennych Chwil (ok. 400 zł, nie gotówka). Nie liczą się wpływy z lokat, kredytów, innych rachunków w Banku Pocztowym ani wpłaty gotówkowe. Premie zwolnione z PIT. Lokata na dzień dobry 5% skończyła się 13.11.2026.",
+   "product": "Konto w Porządku — „Kupujesz – zyskujesz” (ed. 2)",
+   "refBonus": 100,
+   "salary": 1000,
+   "source": "https://moneteo.com/bankonauci/kupujesz-zyskujesz-1000-zl-konto-w-porzadku-bank-pocztowy-edycja-2",
+   "until": "2027-01-31"
+  },
+  {
+   "bank": "erste",
+   "bankName": "Erste Bank Polska",
+   "bonus": 250,
+   "conditions": [
+    "Dziecko nie miało nigdy konta osobistego w PLN w Erste (d. Santander)",
+    "Do 30.11.2026 otwórz dziecku konto w bankowości Erste lub aplikacji",
+    "Dla dzieci 7–17 lat zamów też kartę debetową"
+   ],
+   "id": "erste-mlodzi",
+   "kind": "dziecko",
+   "maxAge": 17,
+   "minAge": 0,
+   "note": "Nastolatek 13–17 lat może dostać dodatkowe 100 zł z programu poleceń. Dla dziecka jest też lokata 5%.",
+   "product": "Konto Smart dla młodych — „Jesienna promocja dla młodych”",
+   "source": "https://moneteo.com/bankonauci/jesienna-promocja-dla-mlodych-250-zl-konto-smart-dla-mlodych-erste-bank-polska",
+   "until": "2026-11-30"
+  },
+  {
+   "bank": "bnp",
+   "bankName": "BNP Paribas",
+   "bonus": 200,
+   "conditions": [
+    "Rodzic ma (albo otwiera) konto osobiste w BNP Paribas",
+    "Do 30.11.2026 Konto Karty Samodzielniaka (7–12 lat) albo zgoda na Konto Samodzielniaka (13–17 lat)",
+    "Dziecko płaci kartą w kolejnych miesiącach"
+   ],
+   "id": "bnp-samodzielniak",
+   "kind": "dziecko",
+   "maxAge": 17,
+   "minAge": 7,
+   "note": "Pula 8 000 wniosków — może skończyć się wcześniej. Rodzic może równolegle wziąć premię za własne konto.",
+   "parentAccount": true,
+   "product": "Konto Karty Samodzielniaka — „Dodatkowe kieszonkowe”",
+   "source": "https://moneteo.com/bankonauci/200-zl-dodatkowe-kieszonkowe-konto-samodzielniaka-bnp-paribas",
+   "until": "2026-11-30"
+  },
+  {
+   "bank": "pekao",
+   "bankName": "Bank Pekao",
+   "bonus": 200,
+   "conditions": [
+    "Do 18.11.2026 zawrzyj umowę o Konto Przekorzystne dla Młodych w imieniu dziecka",
+    "Dodatkowe produkty zależnie od wieku dziecka (np. karta)"
+   ],
+   "id": "pekao-mlodzi",
+   "kind": "dziecko",
+   "maxAge": 17,
+   "minAge": 0,
+   "note": "Premia zwolniona z podatku. Dla oszczędności dziecka promocyjne oprocentowanie.",
+   "parentAccount": true,
+   "product": "Konto Przekorzystne dla Młodych — „Rodzice polecają” (ed. 54)",
+   "source": "https://moneteo.com/bankonauci/rodzice-polecaja-konto-przekorzystne-dzieciom-200-zl-bank-pekao-edycja-54",
+   "until": "2026-11-18"
+  },
+  {
+   "bank": "mbank",
+   "bankName": "mBank",
+   "bonus": 300,
+   "conditions": [
+    "Konto eKonto junior dla dziecka z kartą (karta od 1. roku życia)",
+    "Aktywność dziecka kartą wg regulaminu"
+   ],
+   "id": "mbank-junior",
+   "kind": "dziecko",
+   "maxAge": 12,
+   "minAge": 0,
+   "note": "Nagroda do końca lutego 2027. Termin otwarcia i dokładny przedział wieku sprawdź w regulaminie. Rodzic w „Cała naprzód” dostaje dodatkowo 100 zł za konto dziecka.",
+   "parentAccount": true,
+   "product": "eKonto junior — „Czas na samodzielność”",
+   "source": "https://moneteo.com/bankonauci/czas-na-samodzielnosc-300-zl-smyk-ekonto-junior-mbank"
+  },
+  {
+   "bank": "ing",
+   "bankName": "ING Bank Śląski",
+   "bonus": 200,
+   "conditions": [
+    "Konto dla dziecka zakładane przez rodzica w Moim ING",
+    "Zgody marketingowe w Panelu rodzica",
+    "Aktywność dziecka w kolejnych miesiącach"
+   ],
+   "id": "ing-go",
+   "kind": "dziecko",
+   "maxAge": 17,
+   "minAge": 0,
+   "note": "Premia najpóźniej do 11.03.2027. Termin otwarcia sprawdź w regulaminie.",
+   "parentAccount": true,
+   "product": "Konto w Planie ING GO dla niepełnoletnich — „Do 200 zł kieszonkowego”",
+   "source": "https://moneteo.com/bankonauci/do-200-zl-kieszonkowego-konto-w-planie-ing-go-dla-niepelnoletnich-ing-bank-slaski-pazdziernik-2026"
+  },
+  {
+   "bank": "pko",
+   "bankName": "PKO BP",
+   "bonus": 300,
+   "conditions": [
+    "Rodzic otwiera PKO Konto za Zero w promocji „Prosty zwrot” (kod PROSTO)",
+    "Konto dla dziecka: PKO Konto Dziecka (0–12) lub PKO Konto dla Młodych (13–17)"
+   ],
+   "id": "pko-dziecko",
+   "kind": "dziecko",
+   "maxAge": 17,
+   "minAge": 0,
+   "note": "Kwota „do 300 zł” — szczegóły w regulaminie promocji.",
+   "parentAccount": true,
+   "product": "PKO Konto Dziecka / dla Młodych — w promocji „Prosty zwrot”",
+   "source": "https://www.totalmoney.pl/artykuly/pko-konto-za-zero-promocja-prosty-zwrot-600-zl",
+   "until": "2026-12-31"
+  },
+  {
+   "bank": "inbank",
+   "bankName": "Inbank",
+   "conditions": [
+    "Nie masz i nie miałeś wcześniej lokat w Inbanku",
+    "Nie trzeba konta osobistego; pochodzenie środków bez znaczenia",
+    "Przelew środków w ciągu 5 dni od zawarcia umowy; jedna lokata"
+   ],
+   "days": 91,
+   "id": "inbank-start",
+   "kind": "lokata",
+   "max": 100000,
+   "min": 1000,
+   "newClient": true,
+   "note": "Termin oferty nie podany — sprawdź w regulaminie. Po odnowieniu lokata standardowa 3M (ok. 3,8%).",
+   "product": "Lokata na Start 3M",
+   "rate": 4.5,
+   "source": "https://moneteo.com/analizy/lokata-na-start-inbank"
+  },
+  {
+   "bank": "toyota",
+   "bankName": "Toyota Bank",
+   "baseline": true,
+   "conditions": [
+    "Dla wszystkich — nie trzeba mieć samochodu Toyota, konta osobistego ani statusu nowego klienta",
+    "Można ustawić automatyczne odnowienie (na warunkach z dnia odnowienia)"
+   ],
+   "days": 182,
+   "id": "toyota-12m",
+   "kind": "lokata",
+   "max": 100000,
+   "min": 2000,
+   "note": "Wniosek online bez konta osobistego, ale trzeba poczekać na telekod (do kilku dni).",
+   "product": "Lokata Standard 6M",
+   "rate": 4.3,
+   "source": "https://moneteo.com/analizy/lokata-standard-toyota-bank"
+  }
+ ],
+ "updated": "2026-11-16"
+}
