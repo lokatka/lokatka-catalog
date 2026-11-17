@@ -50,6 +50,233 @@
   "USD": 3.9852,
   "date": "2026-11-13"
  },
+ "fxOffers": [
+  {
+   "account": true,
+   "bank": "unicredit",
+   "bankName": "UniCredit (dawniej Aion Bank)",
+   "conditions": [
+    "Wymagane konto w UniCredit (dawniej Aion Bank)",
+    "Stałe oprocentowanie; zerwanie lokaty = utrata odsetek"
+   ],
+   "currency": "USD",
+   "id": "unicredit-usd-12",
+   "max": 5000000,
+   "min": 1,
+   "months": 12,
+   "product": "Lokata w USD 12M",
+   "rate": 2.2,
+   "source": "https://www.oprocentowanielokat.pl/lokaty-walutowe/"
+  },
+  {
+   "account": true,
+   "bank": "unicredit",
+   "bankName": "UniCredit (dawniej Aion Bank)",
+   "conditions": [
+    "Wymagane konto w UniCredit (dawniej Aion Bank)",
+    "Stałe oprocentowanie; zerwanie lokaty = utrata odsetek"
+   ],
+   "currency": "USD",
+   "id": "unicredit-usd-24",
+   "max": 5000000,
+   "min": 1,
+   "months": 24,
+   "product": "Lokata w USD 24M",
+   "rate": 2.5,
+   "source": "https://www.oprocentowanielokat.pl/lokaty-walutowe/"
+  },
+  {
+   "account": true,
+   "bank": "alior",
+   "bankName": "Alior Bank",
+   "conditions": [
+    "Konto w Alior Banku"
+   ],
+   "currency": "USD",
+   "id": "alior-usd-36",
+   "min": 200,
+   "months": 36,
+   "product": "Lokata walutowa w USD 36M",
+   "rate": 1.0,
+   "source": "https://www.bankier.pl/smart/lokaty-walutowe"
+  },
+  {
+   "account": true,
+   "bank": "alior",
+   "bankName": "Alior Bank",
+   "conditions": [
+    "Konto w Alior Banku"
+   ],
+   "currency": "USD",
+   "id": "alior-usd-12",
+   "min": 200,
+   "months": 12,
+   "product": "Lokata walutowa w USD 12M",
+   "rate": 0.5,
+   "source": "https://www.kredytowypatrol.pl/lokaty-walutowe/"
+  },
+  {
+   "account": true,
+   "bank": "velo",
+   "bankName": "VeloBank",
+   "conditions": [
+    "Konto w VeloBanku"
+   ],
+   "currency": "USD",
+   "id": "velo-usd-12",
+   "min": 100,
+   "months": 12,
+   "product": "Lokata walutowa w USD 12M",
+   "rate": 0.5,
+   "source": "https://www.bankier.pl/smart/lokaty-walutowe"
+  },
+  {
+   "account": true,
+   "bank": "millennium",
+   "bankName": "Bank Millennium",
+   "conditions": [
+    "Konto w Millennium, lokata tylko online"
+   ],
+   "currency": "USD",
+   "id": "millennium-usd-12",
+   "min": 200,
+   "months": 12,
+   "product": "Lokata Millenet walutowa w USD 12M",
+   "rate": 0.5,
+   "source": "https://www.bankier.pl/smart/lokaty-walutowe"
+  },
+  {
+   "account": true,
+   "bank": "raiffeisen",
+   "bankName": "Raiffeisen Digital Bank",
+   "conditions": [
+    "Tylko dla nowych klientów",
+    "Konto w EUR, tylko w aplikacji"
+   ],
+   "currency": "EUR",
+   "id": "raiffeisen-eur-12",
+   "max": 150000,
+   "min": 100,
+   "months": 12,
+   "newClient": true,
+   "note": "Bank austriacki: domyślnie 25% podatku w Austrii — złóż formularz w banku, żeby płacić 19% w Polsce.",
+   "product": "Lokata online w euro 12M dla nowych klientów",
+   "rate": 2.6,
+   "source": "https://moneteo.com/rankingi/lokaty-walutowe"
+  },
+  {
+   "bank": "inbank",
+   "bankName": "Inbank",
+   "conditions": [
+    "Nie trzeba konta w banku — tylko online"
+   ],
+   "currency": "EUR",
+   "id": "inbank-eur-12",
+   "max": 100000,
+   "min": 500,
+   "months": 12,
+   "product": "Lokata w Euro 12M",
+   "rate": 2.5,
+   "source": "https://moneteo.com/rankingi/lokaty-walutowe"
+  },
+  {
+   "account": true,
+   "bank": "nest",
+   "bankName": "Nest Bank",
+   "conditions": [
+    "Konto w Nest Banku",
+    "Tylko nowe środki"
+   ],
+   "currency": "EUR",
+   "id": "nest-eur-12",
+   "max": 500000,
+   "min": 1000,
+   "months": 12,
+   "newFunds": true,
+   "product": "Nest Lokata Nowe Środki w EUR 12M",
+   "rate": 2.25,
+   "source": "https://moneteo.com/rankingi/lokaty-walutowe"
+  },
+  {
+   "bank": "inbank",
+   "bankName": "Inbank",
+   "conditions": [
+    "Nie trzeba konta w banku — tylko online",
+    "Pieniądze zamrożone na 5 lat"
+   ],
+   "currency": "EUR",
+   "id": "inbank-eur-60",
+   "max": 100000,
+   "min": 500,
+   "months": 60,
+   "product": "Lokata w Euro 5L",
+   "rate": 3.1,
+   "source": "https://moneteo.com/rankingi/lokaty-walutowe"
+  },
+  {
+   "account": true,
+   "bank": "alior",
+   "bankName": "Alior Bank",
+   "conditions": [
+    "Konto w Alior Banku"
+   ],
+   "currency": "GBP",
+   "id": "alior-gbp-36",
+   "min": 200,
+   "months": 36,
+   "product": "Lokata standardowa w GBP 36M",
+   "rate": 0.8,
+   "source": "https://www.oprocentowanielokat.pl/lokaty-walutowe/"
+  },
+  {
+   "account": true,
+   "bank": "bos",
+   "bankName": "BOŚ Bank",
+   "conditions": [
+    "Konto w BOŚ (BOŚBank24)",
+    "Zerwanie lokaty = utrata odsetek"
+   ],
+   "currency": "GBP",
+   "id": "bos-gbp-12",
+   "min": 250,
+   "months": 12,
+   "product": "Lokata w GBP 12M",
+   "rate": 0.6,
+   "source": "https://www.oprocentowanielokat.pl/lokaty-walutowe/"
+  },
+  {
+   "account": true,
+   "bank": "millennium",
+   "bankName": "Bank Millennium",
+   "conditions": [
+    "Konto w Millennium, lokata tylko online",
+    "Bez odnowienia"
+   ],
+   "currency": "GBP",
+   "id": "millennium-gbp-12",
+   "min": 200,
+   "months": 12,
+   "product": "Lokata Millenet w GBP (276–366 dni)",
+   "rate": 0.5,
+   "source": "https://www.oprocentowanielokat.pl/lokaty-walutowe/"
+  },
+  {
+   "account": true,
+   "bank": "bos",
+   "bankName": "BOŚ Bank",
+   "conditions": [
+    "Konto w BOŚ",
+    "Zerwanie lokaty = utrata odsetek"
+   ],
+   "currency": "CHF",
+   "id": "bos-chf-24",
+   "min": 1000,
+   "months": 24,
+   "product": "Lokata z Frankiem 24M",
+   "rate": 0.1,
+   "source": "https://www.oprocentowanielokat.pl/lokaty-walutowe/"
+  }
+ ],
  "offers": [
   {
    "bank": "bos",
