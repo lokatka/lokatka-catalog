@@ -202,7 +202,7 @@
    "bankName": "Inbank",
    "conditions": [
     "Nie trzeba konta w banku — tylko online",
-    "Pieniądze zamrożone na 5 lat"
+    "Wcześniejsza wypłata = utrata odsetek"
    ],
    "currency": "EUR",
    "id": "inbank-eur-60",
